@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malin | E-Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Malintha<span class="text-gradient">.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#reflections">Reflections</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1. Home Page (Introduction) -->
+    <section id="home" class="hero fade-in">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="text-gradient">Malintha</span></h1>
+                <h2>Aspiring Computer Science Undergraduate | Innovator | Lifelong Learner | Tech Enthusiast | Teacher
+                </h2>
+                <p>
+                    Passionate about exploring technology to solve real-world problems. With a strong foundation in
+                    problem-solving, software development, and I am continuously exploring the boundaries of modern tech
+                    innovations.
+                </p>
+                <div style="margin-bottom: 2rem;">
+                    <strong>Student Number:</strong> CS-2021-060<br>
+                    <strong>Degree Program:</strong> BSc (Hons) in Computer Science<br>
+                    <strong>Faculty:</strong> Faculty of Computing And Technology<br>
+                    <strong>University:</strong> University of Kelaniya Sri Lanka
+                </div>
+                <a href="#about" class="btn btn-primary">Discover More</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/ee.jpeg" alt="Malin Professional Photograph" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. About Me (Personal Profile) -->
+    <section id="about" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3><i class="fas fa-graduation-cap text-gradient"></i> Educational Background</h3>
+                    <p>Currently pursuing my computer science degree with a focus on Artificial Intelligence and Machine
+                        learning. I have
+                        completed foundational modules in programming, software engineering, and network systems with
+                        distinction, showing a strong aptitude for analytical problem-solving.</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-heart text-gradient"></i> Interests</h3>
+                    <p> I am fascinated by Backend systems,Machine Learning, and data automation.
+                        Personally, I enjoy teaching and working with students, reading up on engineering advancements,
+                        astro-physics,and
+                        participating in hackathons.</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-bullseye text-gradient"></i> Career Goals</h3>
+                    <p>My goal is to become a versatile AI Engineer and/or Intelligent Automated solutions engineer.</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-star text-gradient"></i> Personal Values</h3>
+                    <p>Integrity, continuous learning, and collaborative innovation. I believe in writing clean code,
+                        building sustainable systems, self-learning new technologies, and always leaving a project
+                        better than I found it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Academic Projects -->
+    <section id="projects" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Academic Projects</h2>
+            <div class="grid-2">
+                <!-- Project 1 -->
+                <div class="card">
+                    <img src="assets/project_iot.png" alt="Smart Home Automation" class="card-img">
+                    <h3>Scheduler.AI</h3>
+                    <p><strong>Module:</strong> Personalized Student Productivity Management System Using LLM</p>
+                    <p><strong>Objective:</strong> Scheduler.ai is engineered to optimize student productivity by
+                        delivering advanced, AI-driven task and workload management solutions. Leveraging React.js and
+                        Material UI for a modern, responsive user interface, alongside Django and Django REST Framework
+                        for a secure and scalable backend, the platform seamlessly integrates Google’s Gemini API and
+                        ChromaDB. This enables personalized task guidance, adaptive scheduling, and intelligent,
+                        context-aware support. Scheduler.ai empowers students to efficiently organize their tasks,
+                        access academic resources, monitor progress, and benefit from AI-assisted journaling and
+                        feedback, providing a comprehensive platform for enhanced productivity and academic success.
+                    </p>
+                    <p><strong>Description:</strong> Users can generate detailed subtasks, each supported by relevant
+                        resources such as videos, PDFs, websites, and comprehensive descriptions. The integrated AI
+                        assistant supports in-app journaling, efficiently retrieves information from diary entries,
+                        generates customized task recommendations. Progress is measurable through customizable
+                        assessments—including multiple-choice, essay, and coding exercises.</p>
+                    <p><strong>My Role:</strong> Lead Backend Developer </p>
+                    <p><strong>Outcomes:</strong> • Personalized Task Creation: Tailored task generation with detailed
+                        plans and relevant resources.
+                        • AI-Powered Digital Diary: Conversational interaction to create, edit, and retrieve diary
+                        entries.
+                        • Academic Resource Finder: Generates subtasks with videos, PDFs, websites, and other materials.
+                        • Progress Evaluation: Customizable test generation (MCQs, essays, coding exercises) for
+                        self-assessment.
+                        • AI Chatbot Assistant: Context-aware personal assistant for scheduling, guidance, and queries.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">React.js, Material UI</span>
+                        <span class="tag">Django and Django REST Framework</span>
+                        <span class="tag">Gemini API and ChromaDB</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="card">
+                    <img src="assets/project_software.png" alt="Student Management Dashboard" class="card-img">
+                    <h3>Automated Student Data Dashboard</h3>
+                    <p><strong>Module:</strong> Data Structures & Algorithms (Semester I)</p>
+                    <p><strong>Objective:</strong> Create a GUI application to efficiently manage and search student
+                        records.</p>
+                    <p><strong>Description:</strong> Developed a Python-based application using Tkinter and SQLite,
+                        implementing efficient sorting and searching algorithms to handle large datasets.</p>
+                    <p><strong>My Role:</strong> Backend Developer & Algorithm Designer</p>
+                    <p><strong>Outcomes:</strong> Reduced data retrieval time by 40% compared to legacy spreadsheet
+                        methods.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">Data Structures</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Technical Skills -->
+    <section id="skills" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Programming Languages</h3>
+                    <ul style="list-style-type: none; padding-left: 0; color: var(--text-secondary);">
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> C / C++ (Embedded Systems)
+                        </li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Python (Data & Automation)
+                        </li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Java (Basic App Dev)</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Arduino Programming</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Tools & Technologies</h3>
+                    <ul style="list-style-type: none; padding-left: 0; color: var(--text-secondary);">
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> AutoCAD / SolidWorks</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> MATLAB / Simulink</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Proteus / Multisim</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Git / GitHub</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Engineering & Hardware</h3>
+                    <ul style="list-style-type: none; padding-left: 0; color: var(--text-secondary);">
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Circuit Design &
+                            Troubleshooting</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Soldering & PCB Design
+                        </li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Microcontrollers (Arduino,
+                            Pi)</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle"
+                                style="color: var(--accent-primary); margin-right: 8px;"></i> Basic Networking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Field Visits & Industry-Related Experience -->
+    <section id="experience" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Industry Exposure</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">October 2025</span>
+                    <h3>IFS Visit</h3>
+                    <p><strong>Duration:</strong> 1 Day</p>
+                    <p><strong>Purpose:</strong> IEEE Champions day </p>
+                    <p><strong>Observations:</strong>Learned about industry standerds , AI and its applications in IFS
+                        and how IFS works </p>
+                    <p><strong>Reflection:</strong> Gained knowledge about IFS and its applications </p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">March 2026</span>
+                    <h3>Tech Innovations IT Company Tour</h3>
+                    <p><strong>Duration:</strong> Half-Day Workshop</p>
+                    <p><strong>Purpose:</strong> Exposure to Agile software development environments.</p>
+                    <p><strong>Activities:</strong> Participated in a mock daily stand-up and observed CI/CD pipeline
+                        deployments.</p>
+                    <p><strong>Reflection:</strong> Understood the critical importance of version control (Git) in
+                        collaborative environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Club Activities & Leadership -->
+    <section id="clubs" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Leadership & Clubs</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>IEEE Student Branch</h3>
+                    <p><strong>Role:</strong>Industry Relations and Finance Lead</p>
+                    <p><strong>Activities:</strong>Organized CodeQuest 2025</p>
+                    <p><strong>Skills Developed:</strong> Time management, Money management and adaptability
+                        when technical issues arose during the event.</p>
+                </div>
+                <div class="card">
+                    <h3>Soft Skills Focus</h3>
+                    <p> I love doing presentations and teach others what I know, people say I'm really good
+                        at explaining complex topics in a simple way</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Research & Academic Engagement -->
+    <section id="research" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Academic Engagement</h2>
+            <div class="card" style="max-width: 800px; margin: 0 auto;">
+                <h3>Undergraduate Research Symposium 2025</h3>
+                <p><strong>Type:</strong> Symposium</p>
+                <p><strong>Organizer:</strong> Faculty of Computing and Technology</p>
+                <p><strong>Role:</strong> Attendee</p>
+                <p><strong>Key Learnings:</strong> Gained knowledge on latest research in the field of computing and
+                    technology</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Certifications & Courses & 9. Achievements -->
+    <section id="certifications" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3><i class="fas fa-certificate text-gradient"></i> Certifications</h3>
+                    <ul style="list-style: none; padding: 0; color: var(--text-secondary);">
+                        <li style="margin-bottom: 1rem;"><strong>AWS Certified Cloud Practitioner</strong><br>Amazon Web
+                            Services (2025)</li>
+                        <li style="margin-bottom: 1rem;"><strong>Python for Data Science</strong><br>Coursera / IBM
+                            (2025)</li>
+                        <li><strong>Introduction to Embedded Systems</strong><br>edX / Texas Instruments (2024)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-trophy text-gradient"></i> Achievements</h3>
+                    <ul style="list-style: none; padding: 0; color: var(--text-secondary);">
+                        <li style="margin-bottom: 1rem;"><strong>1st Runner Up - Hacktoberfest
+                                Hackathon</strong><br>University Level (2025)</li>
+                        <li style="margin-bottom: 1rem;"><strong>Dean's List</strong><br>Semester I & II (2024/2025)
+                        </li>
+                        <li><strong>Volunteer Lead</strong><br>Tech for Good Community Drive (2025)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Reflection Section -->
+    <section id="reflections" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Reflections on University Life</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Group Project Experience</h3>
+                    <p>During my university studies, I participated in a group project where we had to design and
+                        present a technical solution related to our course. This experience helped me understand how to
+                        work effectively in a team.</p>
+                    <p>One challenge we faced was managing time. To overcome this, we created a group timetable and
+                        assigned clear roles. In the future, I plan to communicate more effectively to ensure smoother
+                        collaboration.</p>
+                </div>
+                <div class="card">
+                    <h3>Laboratory Sessions</h3>
+                    <p>Lab sessions have been an important part of my university experience, allowing me to gain
+                        hands-on experience. I learned how to apply theoretical knowledge in real situations and
+                        troubleshoot errors.</p>
+                    <p>Initially, incorrect results were frustrating. I learned patience is key. I aim to improve my
+                        preparation before labs to handle technical issues more efficiently.</p>
+                </div>
+                <div class="card">
+                    <h3>Communication Skills</h3>
+                    <p>Throughout my university life, presentations, especially under the DELT module, helped me improve
+                        my communication. I learned to organize ideas clearly and respond during impromptu tasks.</p>
+                    <p>To overcome nervousness, I practiced regularly. The feedback from my English lecturer was
+                        motivating. I aim to further improve my public speaking and use of visual aids.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Career Goals -->
+    <section id="goals" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Future Development</h2>
+            <div class="card" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p><strong>Short-term Goals:</strong> Secure an internship as a Junior Software Engineer or Junior
+                    AI Engineer to gain industry hands-on experience and apply my academic knowledge to commercial
+                    products.</p>
+                <p style="margin-top: 1rem;"><strong>Long-term Goals:</strong> Lead a team developing sustainable tech
+                    solutions, potentially starting my own tech-focused enterprise addressing local industrial
+                    challenges.</p>
+                <p style="margin-top: 1rem;"><strong>Skills to Develop:</strong> Advanced Cloud Architecture, Machine
+                    Learning, Advanced Web Development, UI/UX, Data Analytics and Visualization</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Contact Information -->
+    <footer id="contact">
+        <div class="container">
+            <h2 style="margin-bottom: 1rem;">Get In Touch</h2>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem;">I am always open to
+                discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+            <div style="font-size: 1.1rem; margin-bottom: 2rem;">
+                <p><i class="fas fa-envelope text-gradient" style="margin-right: 10px;"></i>
+                    samaraw-cs21060@stu.kln.ac.lk</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/malintha-samarawickrama/" target="_blank"> <i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Mali610"><i class="fab fa-github"></i></a>
+                <a href="https://malin-portfolio.vercel.app"><i class="fas fa-globe"></i></a>
+            </div>
+            <p style="margin-top: 3rem; font-size: 0.9rem; color: #555;">&copy; 2026 Malin E-Portfolio. All rights
+                reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
